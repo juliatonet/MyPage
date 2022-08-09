@@ -3,40 +3,52 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
   <title>Minha Página Pessoal</title>
+  <style>
+    #titulo {
+      color: lightskyblue;
+      font-family: Apple Chancery, cursive;
+    }
+    body {
+      background-color: ivory;
+      font-family: Didot, serif;
+    }
+    .texto {
+      color: lightpink;
+      font-family: american typewriter, serif;
+    }
+    #sobre {
+      color: black;
+    }
+  </style>
 </head>
 
 <body>
 <header>
-  <h1>Julia Tonet</h1>
+  <h1 id="titulo">Julia Tonet</h1>
   <details>
-    <summary>Sobre mim:</summary>
-    <p>Meu nome é Julia, tenho 29 anos e atualmente estou cursando o primeiro semestre de análise e desenvolvimento de Sistemas pelo INFNET.</p>
+    <summary class="texto">Sobre mim:</summary>
+    <p id="sobre">Meu nome é Julia, tenho 29 anos e atualmente estou cursando o primeiro semestre de análise e desenvolvimento de Sistemas pelo INFNET.</p>
     <br>
   </details>
   <nav>
-    <a href="#">Contato</a>
+    <a href="mailto:julia.tonet@al.infnet.edu.br">Contato</a>
   </nav>
 </header>
 <article>
-  <h2>Os meus desejos profissionais</h2>
-  <p>Desde o inicío da minha carreira profissional no âmbito da análise e desenvolvimento de sistemas, tenho demonstrado muito interesse na área de front-end. Gosto de design e também de poder em tempo real na tela as mudanças acontecendo.</p>
+  <h2 class="texto">Os meus desejos profissionais</h2>
+  <p>Desde o inicío da minha carreira profissional no âmbito da análise e desenvolvimento de sistemas, tenho demonstrado muito interesse na área de front-end. A possibilidade de mostrar ao cliente um trabalho feito e encantá-lo é o que eu estou almejando na carreira.</p>
   <p>Entretanto, ainda é muito cedo para definir de fato qual área irei seguir. Tenho certeza que ainda aprenderei muita coisas interessantes no decorrer do curso.</p>
 </article>
 <br>
 <section>
-<h3>Meus sites preferidos para estudar</h3>
+<h3 class="texto">Meus sites preferidos para estudar</h3>
   <ul>
     <li><a href="https://www.codecademy.com/" target="_blank">Codecademy</a></li>
     <li><a href="https://www.alura.com.br" target="_blank">Alura</a>
     </li>
   </ul>
 </section>
-
-<footer>Desenvolvido por: Julia Tonet</footer>
-<script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+<footer class="texto">Desenvolvido por: Julia Tonet</footer>
 </body>
-
 </html>
